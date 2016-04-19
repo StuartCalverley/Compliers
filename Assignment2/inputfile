@@ -1,0 +1,9 @@
+declare x : Integer
+declare y : Integer
+x := 0
+y := 10
+while( x < 10 and y > 0 )
+do
+	x := x + 1
+	y := ((y - 1) * (2 / x))
+end while
